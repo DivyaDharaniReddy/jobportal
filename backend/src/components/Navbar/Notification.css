@@ -1,0 +1,49 @@
+.icon-wrapper {
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.icon {
+  font-size: 20px;
+  position: relative;
+}
+
+.badge {
+  background-color: orange;
+  color: white;
+  border-radius: 50%;
+  font-size: 10px;
+  padding: 2px 6px;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 25px;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 100;
+  width: 220px;
+}
+
+.dropdown h4 {
+  margin: 0 0 8px 0;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown li {
+  padding: 5px 0;
+  border-bottom: 1px solid #333;
+}
